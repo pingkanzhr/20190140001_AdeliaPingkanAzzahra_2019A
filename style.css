@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Ribeye+Marrow&display=swap');
+
+.foto img{
+    height: 450px;
+    border-radius: 50px;
+}
+
+.text h1{
+    font-size: 40px;
+    color: palevioletred;
+    font-family: 'Flavors', cursive;
+}
+
+.text s{
+    color: plum;
+}
+.text h5{
+    font-size: 30px;
+    font-weight: 280;
+}
+
+.text p{
+     font-size: 25px;
+     font-weight: 150;
+     font-family: 'Ribeye Marrow', cursive;
+}
+
+.border{
+    border: 2px solid palevioletred;
+    padding: 10px;
+    margin: 10px;
+}
