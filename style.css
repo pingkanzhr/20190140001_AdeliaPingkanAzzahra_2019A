@@ -14,15 +14,16 @@
 
 .text s{
     color: plum;
+    font-family: 'Flavors', cursive;
 }
 .text h5{
     font-size: 30px;
-    font-weight: 280;
+    font-weight: 50;
 }
 
 .text p{
      font-size: 25px;
-     font-weight: 150;
+     font-weight: 100;
      font-family: 'Ribeye Marrow', cursive;
 }
 
