@@ -1,34 +1,180 @@
 @import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Flavors&family=Ribeye+Marrow&display=swap');
 
-.foto img{
-    height: 450px;
-    border-radius: 50px;
-}
+.satu{
+    text-align: center;
+  }
+  
+  .satu img{
+    border-radius: 50%;
+    width: 300px;
+    font-size: 50px;
+  }
+  
+  .satu h2{
+    font-size: 30px;
+    color: powderblue !important;
+  }
 
-.text h1{
+  .link{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .awal h2 span{
+    font-size: 32px;
+    color: rgba(184, 117, 97, 0.863) !important;
+  }
+  
+  .awal p{
+    font-size: 24px;
+    font-family: 'Ribeye Marrow', cursive;
+  }
+  
+  .link-ig{
+    width: 50px !important; 
+  }
+  
+  .tabel,td,th{
+    border-spacing: 12px;
+    border: 1px solid rgba(185, 110, 49, 0.897);
+  }
+  
+  .kedua{
+    display: flex;
+    justify-content: center;
+  }
+
+  .riwayat{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: cadetblue;
+  }
+
+  .riwayat span{
+    color: tan;
+  }
+
+  .urutanpdd{
+    font-size: 20px;
+    display: list-item;
+    justify-content: center;
+    text-align: center;
+    color: plum;
+  }
+
+  .keempat{
+  display: flex;
+  justify-content: center;
+  }
+
+  .keempat h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .keempat h2{
+    font-size: 40px;
+    color: pink;
+  }
+
+  .imgorganisasi{
+    display: flex;
+    justify-content: center;
+  }
+
+  .kelima{
+    display: flex;
+    justify-content: center;
+  }
+
+  .kelima h3{
     font-size: 40px;
     color: palevioletred;
-    font-family: 'Flavors', cursive;
-}
+  }
 
-.text s{
-    color: plum;
-    font-family: 'Flavors', cursive;
-}
-.text h5{
-    font-size: 30px;
-    font-weight: 50;
-}
+  .motivasi{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgba(185, 110, 49, 0.897);
+  }
 
-.text p{
-     font-size: 25px;
-     font-weight: 100;
-     font-family: 'Ribeye Marrow', cursive;
-}
+  .keenam h2{
+    font-size: 40px;
+    display: flex;
+    color:rgb(209, 113, 228);
+    justify-content: center;
+    text-align: center;
+  }
 
-.border{
-    border: 2px solid palevioletred;
-    padding: 10px;
-    margin: 10px;
-}
+  .jpgskill{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* PC VERSION */
+  @media(min-width: 992px){
+    .satu{
+      color: cadetblue;
+    }
+
+    .img .satu2{
+      justify-content: center;
+    }
+
+    .link{
+      text-align: center;
+    }
+  
+    .kedua{
+      justify-content: start;
+    }
+
+    .riwayat{
+      justify-content: center;
+    }
+
+    .urutanpdd{
+      justify-content: start;
+    }
+
+    .imgSkill{
+      justify-content: center;
+      text-align: center;
+      display: flex;
+    }
+
+    .keempat h2{
+      justify-content: start;
+      text-align: center;
+    }
+
+    .imgorganisasi{
+      justify-content: center;
+    }
+
+    .kelima{
+    justify-content: center;
+    }
+    .motivasi{
+      justify-content: center;
+    }
+
+    .keenam{
+      justify-content: center;
+      }
+
+  }
+  
+  /* TABLET VERSION */
+  @media(min-width: 768px) and (max-width: 992px){
+    .awal{
+      color: pink;
+    }
+  }
+
