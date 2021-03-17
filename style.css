@@ -9,11 +9,12 @@
     border-radius: 50%;
     width: 300px;
     font-size: 50px;
+    border: 10px solid rgba(184, 117, 97, 0.863);
   }
   
   .satu h2{
     font-size: 30px;
-    color: powderblue !important;
+    color: rgba(175, 99, 55, 0.74);
   }
 
   .link{
@@ -21,23 +22,23 @@
     font-size: 30px;
   }
 
-  .awal h2 span{
+  .satu h2 span{
     font-size: 32px;
     color: rgba(184, 117, 97, 0.863) !important;
   }
   
-  .awal p{
-    font-size: 24px;
+  .satu p{
+    font-size: 50px;
     font-family: 'Ribeye Marrow', cursive;
   }
   
   .link-ig{
-    width: 50px !important; 
+    width: 80px !important; 
   }
   
   .tabel,td,th{
-    border-spacing: 12px;
-    border: 1px solid rgba(185, 110, 49, 0.897);
+    border-spacing: 14px;
+    border: 2px solid rgba(185, 110, 49, 0.897);
   }
   
   .kedua{
@@ -50,7 +51,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    color: cadetblue;
+    color: wheat;
   }
 
   .riwayat span{
@@ -62,7 +63,12 @@
     display: list-item;
     justify-content: center;
     text-align: center;
-    color: plum;
+    color:rgba(184, 113, 81, 0.911);
+    margin-top: 1px;
+  }
+
+  .urutanpdd span{
+    color:tan;
   }
 
   .keempat{
@@ -78,7 +84,7 @@
 
   .keempat h2{
     font-size: 40px;
-    color: pink;
+    color: tan;
   }
 
   .imgorganisasi{
@@ -93,7 +99,7 @@
 
   .kelima h3{
     font-size: 40px;
-    color: palevioletred;
+    color:sienna;
   }
 
   .motivasi{
@@ -106,7 +112,7 @@
   .keenam h2{
     font-size: 40px;
     display: flex;
-    color:rgb(209, 113, 228);
+    color: tan;
     justify-content: center;
     text-align: center;
   }
@@ -120,7 +126,11 @@
   /* PC VERSION */
   @media(min-width: 992px){
     .satu{
-      color: cadetblue;
+      color: rgba(163, 131, 43, 0.904);
+    }
+
+    .satu h2{
+      color: sienna;
     }
 
     .img .satu2{
