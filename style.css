@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@120&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:wght@100&display=swap');
 
 .satu{
     text-align: center;
@@ -15,6 +15,7 @@
   .satu h2{
     font-size: 30px;
     color: rgba(175, 99, 55, 0.74);
+    font-family: 'Truculenta', sans-serif;
   }
 
   .link{
@@ -23,17 +24,19 @@
   }
 
   .satu h2 span{
-    font-size: 32px;
+    font-size: 30px;
     color: rgba(184, 117, 97, 0.863) !important;
   }
   
   .satu p{
-    font-size: 50px;
-    font-family: 'Ribeye Marrow', cursive;
+    font-size: 30px;
+    font-family:'Open Sans Condensed', sans-serif;
   }
   
   .link-ig{
-    width: 80px !important; 
+    width: 60px !important; 
+    border: 3px solid rgba(184, 117, 97, 0.863);
+    border-radius: 50%;
   }
   
   .tabel,td,th{
@@ -47,11 +50,12 @@
   }
 
   .riwayat{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: wheat;
+    font-family: 'Truculenta', sans-serif;
   }
 
   .riwayat span{
@@ -60,6 +64,7 @@
 
   .urutanpdd{
     font-size: 20px;
+    font-family: 'Truculenta', sans-serif;
     display: list-item;
     justify-content: center;
     text-align: center;
@@ -80,6 +85,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'Truculenta', sans-serif;
   }
 
   .keempat h2{
@@ -99,15 +105,17 @@
   }
 
   .kelima h3{
-    font-size: 20px;
+    font-size: 40px;
     color:sienna;
+    font-family: 'Truculenta', sans-serif;
   }
 
   .motivasi{
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
+    font-family: 'Truculenta', sans-serif;
     justify-content: center;
-    color: rgba(185, 110, 49, 0.897);
+    color: rgba(165, 107, 59, 0.897);
   }
 
   .keenam h2{
@@ -116,6 +124,7 @@
     color: tan;
     justify-content: center;
     text-align: center;
+    font-family: 'Truculenta', sans-serif;
   }
 
   .jpgskill{
@@ -143,7 +152,7 @@
     }
   
     .kedua{
-      justify-content: start;
+      justify-content: center;
     }
 
     .riwayat{
