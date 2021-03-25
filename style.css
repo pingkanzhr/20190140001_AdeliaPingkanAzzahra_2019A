@@ -83,14 +83,14 @@
   }
 
   .keempat h2{
-    font-size: 40px;
+    font-size: 30px;
     color: tan;
   }
 
   .imgorganisasi{
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .kelima{
@@ -99,7 +99,7 @@
   }
 
   .kelima h3{
-    font-size: 40px;
+    font-size: 20px;
     color:sienna;
   }
 
@@ -111,7 +111,7 @@
   }
 
   .keenam h2{
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     color: tan;
     justify-content: center;
