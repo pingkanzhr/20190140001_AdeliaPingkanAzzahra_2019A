@@ -1,0 +1,17 @@
+body{
+    background-image: url("img/matt-palmer-h0l0E9r6xD0-unsplash.jpg");
+    background-position: 100%;
+    background-size: cover;
+    height: 100vh;
+    top:0;
+    left:0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-center{
+    margin-top: 25%;
+    color: whitesmoke;
+}
+

@@ -9,7 +9,7 @@
     border-radius: 50%;
     width: 300px;
     font-size: 50px;
-    border: 10px solid rgba(184, 117, 97, 0.863);
+    border: 3px solid rgba(184, 117, 97, 0.863);
   }
   
   .satu h2{
@@ -90,6 +90,7 @@
   .imgorganisasi{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .kelima{
